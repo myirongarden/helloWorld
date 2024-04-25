@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Simple SPA</title>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-dimmer
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-
+<header>
+    <nav>
+        <a href="#" class="nav-link" data-section="home.html">Home</a>
+        <a href="#" class="nav-link" data-section="about.php">About</a>
+        <a href="#" class="nav-link" data-section="contact.php">Contact</a>
+    </nav>
+</header>
+<main>
+    <div id="content"></div>
+</main>
+<script src="resources/js/spa.js"></script>
 </body>
 </html>
